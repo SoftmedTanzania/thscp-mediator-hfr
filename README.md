@@ -1,6 +1,7 @@
 # HFR to Tanzania Health Supply Chain Mediator
 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/aaec1cbe989340f49e957d39d2b7ab41)](https://app.codacy.com/gh/SoftmedTanzania/thscp-mediator-hfr?utm_source=github.com&utm_medium=referral&utm_content=SoftmedTanzania/thscp-mediator-hfr&utm_campaign=Badge_Grade_Settings)
 [![Java CI Badge](https://github.com/SoftmedTanzania/thscp-mediator-hfr/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/SoftmedTanzania/thscp-mediator-hfr/actions?query=workflow%3A%22Java+CI+with+Maven%22)
 [![Coverage Status](https://coveralls.io/repos/github/SoftmedTanzania/thscp-mediator-hfr/badge.svg?branch=development)](https://coveralls.io/github/SoftmedTanzania/thscp-mediator-hfr?branch=development)
 
