@@ -1,0 +1,33 @@
+{
+  "urn": "urn:uuid:cc763b80-86e7-11eb-a6ca-ab6591b1bfac",
+  "version": "0.1.0",
+  "name": "THSCP-Mediator-HFR",
+  "description": "An OpenHIM mediator for handling system integrations between HFR and THSCP",
+  "endpoints": [
+    {
+      "name": "THSCP-Mediator-HFR Route",
+      "host": "localhost",
+      "port": "3022",
+      "path": "/thscp",
+      "type": "http"
+    }
+  ],
+  "defaultChannelConfig": [
+    {
+      "name": "THSCP-Mediator-HFR",
+      "urlPattern": "^/thscp$",
+      "type": "http",
+      "allow": ["thscp-mediator-hfr"],
+      "routes": [
+        {
+          "name": "THSCP-Mediator-HFR Route",
+          "host": "localhost",
+          "port": "3022",
+          "path": "/thscp",
+          "type": "http",
+          "primary": "true"
+        }
+      ]
+    }
+  ]
+}
